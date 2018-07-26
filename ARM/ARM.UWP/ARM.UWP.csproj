@@ -154,9 +154,9 @@
     <PackageReference Include="Xamarin.Essentials" Version="0.6.0-preview" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AppResourceManager\AppResourceManager.csproj">
-      <Project>{937A4DAF-502F-46F0-B7E8-5DDDDB078BD9}</Project>
-      <Name>AppResourceManager</Name>
+    <ProjectReference Include="..\ARM\ARM.csproj">
+      <Project>{5f0b9244-5341-432c-9936-58e3165efd19}</Project>
+      <Name>ARM</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
